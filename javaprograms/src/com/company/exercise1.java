@@ -5,9 +5,10 @@ public class exercise1 {
         //write a program to calculate percentage of a given student in exam.
         // His marks from 5 subjects must be taken as input from the keyboard.(marks are out of 100)
 
+        Scanner sc = new Scanner(System.in);
+
         /*
 
-        Scanner sc = new Scanner(System.in);
         System.out.println("Enter your english marks");
         float english = sc.nextInt();
         System.out.println("Enter your math marks");
@@ -26,12 +27,20 @@ public class exercise1 {
     */
 
         //program to calculate CGPA
+ /*
         float sub1 = 76;
         float sub2 = 90;
         float sub3 = 77;
 
         float cgpa = (sub1+sub2+sub3) / 30;
         System.out.println("Your cgpa is: "+cgpa);
+*/
+
+        //program to greet user
+
+        System.out.println("Enter your name..");
+        String name = sc.next();
+        System.out.println("Hey "+name+" have a good day");
 
     }
 }
