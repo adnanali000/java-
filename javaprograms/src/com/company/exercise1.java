@@ -37,10 +37,17 @@ public class exercise1 {
 */
 
         //program to greet user
-
+/*
         System.out.println("Enter your name..");
         String name = sc.next();
         System.out.println("Hey "+name+" have a good day");
+*/
+        //check input whether it is int or not
+/*
+        System.out.println("Enter number");
+        boolean num = sc.hasNextInt();
+        System.out.println(num);
+  */
 
     }
 }
