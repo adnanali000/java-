@@ -5,6 +5,7 @@ public class exercise1 {
         //write a program to calculate percentage of a given student in exam.
         // His marks from 5 subjects must be taken as input from the keyboard.(marks are out of 100)
 
+        /*
 
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter your english marks");
@@ -22,6 +23,15 @@ public class exercise1 {
        double percentage = (totalMarks/500) * 100;
 
         System.out.println("Your Percentage is: "+percentage+"%");
+    */
+
+        //program to calculate CGPA
+        float sub1 = 76;
+        float sub2 = 90;
+        float sub3 = 77;
+
+        float cgpa = (sub1+sub2+sub3) / 30;
+        System.out.println("Your cgpa is: "+cgpa);
 
     }
 }
