@@ -64,7 +64,7 @@ public class Main {
 */
 
         //operators in java
-
+/*
         int a = 5;
         int b = 4;
         int res = a%b; //airthmatic , modulus operator
@@ -76,7 +76,20 @@ public class Main {
         System.out.println(2&3); //bitwise operator
 
 
+*/
 
+        //precedence and associativity
+        //precedence of / and * are equal.
+        //associativity of / and * start left to right
+
+        int a = 3*4+12/3;
+        //12/3 = 4
+        //3*4 = 12
+        // 12+4 = 16
+        System.out.println(a);
+
+        int b = 60/5 - 34*2;
+        System.out.println(b);
 
 
 
