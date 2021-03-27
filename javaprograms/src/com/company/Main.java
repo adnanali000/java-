@@ -81,7 +81,7 @@ public class Main {
         //precedence and associativity
         //precedence of / and * are equal.
         //associativity of / and * start left to right
-
+/*
         int a = 3*4+12/3;
         //12/3 = 4
         //3*4 = 12
@@ -90,6 +90,27 @@ public class Main {
 
         int b = 60/5 - 34*2;
         System.out.println(b);
+
+*/
+        //datatype of expression
+
+        //byte + short = int
+        // s + i = i
+        //l+f = f
+        //i+f = f
+        //c+i = i
+        //c+s = i
+        //l+d = d
+        //f+d = d
+
+        //increment and decrement operator
+
+        int i = 56;
+        System.out.println(i++);
+        System.out.println(i);
+        System.out.println(++i);
+        System.out.println(i);
+        System.out.println(--i);
 
 
 
