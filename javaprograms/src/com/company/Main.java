@@ -63,6 +63,44 @@ public class Main {
         System.out.println(str2);
 */
 
+        //operators in java
+
+        int a = 5;
+        int b = 4;
+        int res = a%b; //airthmatic , modulus operator
+        b *= 3; //assignment operator
+        System.out.println(res);
+        System.out.println(b);
+        System.out.println(6==4); //comparison operator
+        System.out.println(6<9 && 3<4); //logical operaotr
+        System.out.println(2&3); //bitwise operator
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
