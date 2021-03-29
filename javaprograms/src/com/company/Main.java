@@ -5,7 +5,9 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+        //for user input
+        Scanner sc = new Scanner(System.in);
+        // write your code here
         //System.out.println("Hello world");
 
         //sum of two numbers
@@ -114,6 +116,25 @@ public class Main {
 
 */
 
+                //INTRODUCTION TO STRINGS
+//string as an object
+        String name = new String("adnan");
+        System.out.println(name);
+//string as a data type
+        String name2 = "Adnan";
+        System.out.println(name2);
+ //different type of print
+        System.out.print("hello world"); //this will not print the new line
+        System.out.println("hello world"); //this will print the new line
+  //for c programmers
+        int a = 10;
+        float b = 3.455f;
+        System.out.printf("The value of a is %d and value of b is %f \n",a,b);
+        System.out.format("The value of a is %d and value of b is %f \n",a,b); //both are same
+//taking string input from user
+        System.out.println("Enter input");
+        String inp = sc.nextLine(); //print whole string
+        System.out.println(inp);
 
 
 
