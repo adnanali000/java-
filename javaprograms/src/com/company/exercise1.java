@@ -71,12 +71,26 @@ public class exercise1 {
         //using comparison operator to find out whether a given number is greater than  the user
         //entered number or not.
 
-
+/*
         System.out.println("Enter number");
         int user = sc.nextInt();
         System.out.println(user>10);
-
-
+*/
+        //question
+ /*
+        float v = 10;
+        float u = 6;
+        float a = 20;
+        float s = 2;
+        float formula = (v*v - u*u) / (2*a*s);
+        System.out.println(formula);
+*/
+        //question
+        /*
+        int x = 7;
+        int a = x*49/x + 35/x;
+        System.out.println(a);
+*/
 
     }
 }
