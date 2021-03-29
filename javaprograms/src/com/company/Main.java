@@ -142,6 +142,8 @@ public class Main {
 */
         //methods in string
 
+        /*
+
         String name = "Adnan";
         System.out.println(name);
 
@@ -186,6 +188,8 @@ public class Main {
          boolean equ = name.equals("Adnan");
         System.out.println(equ);
         System.out.println(name.equalsIgnoreCase("ADNAn"));
+*/
+
 
 
 

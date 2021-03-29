@@ -1,4 +1,5 @@
 package com.company;
+import java.util.Locale;
 import java.util.Scanner;
 public class exercise1 {
     public static void main(String[] args) {
@@ -91,6 +92,13 @@ public class exercise1 {
         int a = x*49/x + 35/x;
         System.out.println(a);
 */
+
+        //write a program to convert string in lowercase
+ /*
+        String name = "HELLO world";
+        System.out.println(name.toLowerCase());
+*/
+
 
     }
 }
