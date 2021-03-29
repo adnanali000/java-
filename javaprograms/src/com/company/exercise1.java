@@ -99,6 +99,9 @@ public class exercise1 {
         System.out.println(name.toLowerCase());
 */
 
+        //program to replace spaces with underscore
+        String comp = "K F C";
+        System.out.println(comp.replace(" ","_"));
 
     }
 }
