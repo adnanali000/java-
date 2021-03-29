@@ -106,9 +106,22 @@ public class exercise1 {
         System.out.println(comp);
 */
         //java program to fill letter template with name
-
+/*
         String letter = "Dear <|name|> , Thanks a lot";
         letter = letter.replace("<|name|>","Adnan");
         System.out.println(letter);
+ */
+        //program to detect double and triple space without if else
+/*
+        String let = "A  for   apple";
+        System.out.println(let.indexOf("  "));
+        System.out.println(let.indexOf("   "));
+*/
+        //format the letter using escape sequence character
+        String letter2 = "Dear Adnan, your current learning course is java";
+        letter2 = "Dear Adnan,\n\tyour current learning course is java.\n\tThankyou!";
+        System.out.println(letter2);
+
+
     }
 }
