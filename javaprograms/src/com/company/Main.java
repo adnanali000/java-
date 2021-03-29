@@ -93,7 +93,7 @@ public class Main {
 
 */
         //datatype of expression
-
+/*
         //byte + short = int
         // s + i = i
         //l+f = f
@@ -112,6 +112,7 @@ public class Main {
         System.out.println(i);
         System.out.println(--i);
 
+*/
 
 
 

@@ -49,5 +49,23 @@ public class exercise1 {
         System.out.println(num);
   */
 
+        //what will be the result of the following expression
+//        float a = 7/4 * 9/2; //ans = 4 which is wrong
+/*
+        float a = 7/4.0f * 9/2.0f;
+        System.out.println(a);
+*/
+        //right a java program to encrypt a grade by adding 8 in it and decrypt it to show correct grade.
+
+        //encrypt
+        char grade = 'C';
+        grade = (char)(grade+8);
+        System.out.println(grade);
+
+        //decrypt
+        grade = (char)(grade-8);
+        System.out.println(grade);
+
+
     }
 }
