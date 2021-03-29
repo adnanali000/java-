@@ -1,5 +1,6 @@
 package com.company;
 //take user input we have to import this module
+import java.util.Locale;
 import java.util.Scanner;
 
 public class Main {
@@ -117,6 +118,8 @@ public class Main {
 */
 
                 //INTRODUCTION TO STRINGS
+
+        /*
 //string as an object
         String name = new String("adnan");
         System.out.println(name);
@@ -136,6 +139,53 @@ public class Main {
         String inp = sc.nextLine(); //print whole string
         System.out.println(inp);
 
+*/
+        //methods in string
+
+        String name = "Adnan";
+        System.out.println(name);
+
+        int len = name.length();
+        System.out.println(len);
+
+        String  lowc = name.toLowerCase();
+        System.out.println(lowc);
+
+        String  uppc = name.toUpperCase();
+        System.out.println(uppc);
+
+        String nonTrimStr = "       Hello my name is adnan       ";
+        System.out.println(nonTrimStr);
+        System.out.println(nonTrimStr.trim());//remove extra space from start and end
+
+        String substr = name.substring(2);
+        System.out.println(substr); //nan
+        System.out.println(name.substring(1,5));
+
+        String rep = name.replace('n','a');
+        System.out.println(rep);
+        System.out.println(name.replace("Adn","ada"));
+
+        boolean startwith = name.startsWith("Ad");
+        System.out.println(startwith);
+        System.out.println(name.startsWith("ad"));
+
+        boolean endWit = name.endsWith("an");
+        System.out.println(endWit);
+
+        char chrat =  name.charAt(1);
+        System.out.println(chrat);
+
+        int indof = name.indexOf("dn");
+        System.out.println(indof);
+        System.out.println(name.indexOf("a",3));
+
+        int lindOf = name.lastIndexOf("n");
+        System.out.println(lindOf);
+
+         boolean equ = name.equals("Adnan");
+        System.out.println(equ);
+        System.out.println(name.equalsIgnoreCase("ADNAn"));
 
 
 
