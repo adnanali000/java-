@@ -100,8 +100,15 @@ public class exercise1 {
 */
 
         //program to replace spaces with underscore
+ /*
         String comp = "K F C";
-        System.out.println(comp.replace(" ","_"));
+        comp = comp.replace(" ","_");
+        System.out.println(comp);
+*/
+        //java program to fill letter template with name
 
+        String letter = "Dear <|name|> , Thanks a lot";
+        letter = letter.replace("<|name|>","Adnan");
+        System.out.println(letter);
     }
 }
