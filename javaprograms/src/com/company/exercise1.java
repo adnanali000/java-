@@ -56,8 +56,9 @@ public class exercise1 {
         System.out.println(a);
 */
         //right a java program to encrypt a grade by adding 8 in it and decrypt it to show correct grade.
-
+/*
         //encrypt
+
         char grade = 'C';
         grade = (char)(grade+8);
         System.out.println(grade);
@@ -65,6 +66,16 @@ public class exercise1 {
         //decrypt
         grade = (char)(grade-8);
         System.out.println(grade);
+*/
+
+        //using comparison operator to find out whether a given number is greater than  the user
+        //entered number or not.
+
+
+        System.out.println("Enter number");
+        int user = sc.nextInt();
+        System.out.println(user>10);
+
 
 
     }
